@@ -13,7 +13,7 @@ export function ComplexFunctionBased() {
       <button onClick={() => setCount(count - 1)}>-</button>
       {count}
       <button onClick={() => setCount(count + 1)}>+</button>
-      <button onClick={() => setCount(0)}>Reset</button>
+      <button onClick={() => setCount(initialCount)}>Reset</button>
       <input type='text' value={title} onChange={(e) => setTitle(e.target.value)}/>
     </>
   )
